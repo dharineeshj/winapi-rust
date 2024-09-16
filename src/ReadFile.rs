@@ -8,7 +8,7 @@ pub fn read_file() {
     let mut buffer: Vec<u8> = vec![0; 100]; // Buffer to read data into
     let mut bytes_read: u32 = 0; // Number of bytes read
 
-    let filename = CString::new(r"E:\Projects\win32api\demo.txt").expect("CString::new failed");
+    let filename = CString::new(r"E:\Projects\winapi-rust\demo.txt").expect("CString::new failed");
 
     unsafe {
         // Open the file using CreateFileA
